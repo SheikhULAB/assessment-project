@@ -1,6 +1,11 @@
+import LeftSide from "@/components/LeftSide";
+import RightSide from "@/components/RightSide";
 
 export default function Home() {
   return (
-   <main></main>
+   <main className="flex">
+    <LeftSide />
+    <RightSide />
+   </main>
   );
 }
