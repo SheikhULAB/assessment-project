@@ -16,63 +16,63 @@ const BottomPortion = () => {
         <div>
           <div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3'>
               <TbKarate />
-              <span>Karate Course</span>
+              <span className='ml-4'>Karate Course</span>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
               <MdCastForEducation />  
-              <span>Online Courses</span>    
+              <span className='ml-4'>Online Courses</span>    
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <LiaVideoSolid />
-                <span>Videos</span>
+                <span className='ml-4'>Videos</span>
             </div>           
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <GoContainer />
-                <span>Equipments</span>
+                <span className='ml-4'>Equipments</span>
             </div>   
 
-             <div className='flex items-center'>
+             <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <GiConfrontation />
-                <span>Competition</span>
+                <span className='ml-4'>Competition</span>
             </div>
 
           </div>
 
           <div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <FaHeart />
-                <span>Your Favourite</span>
+                <span className='ml-4'>Your Favourite</span>
             </div>   
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <IoIosNotifications />
-                <span>Notification</span>
+                <span className='ml-4'>Notification</span>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <RiAdminFill />
-                <span>My Profile</span>
+                <span className='ml-4'>My Profile</span>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <FaHandHoldingDollar />
-                <span>Payment Method</span>
+                <span className='ml-4'>Payment Method</span>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <IoMdSettings />
-                <span>Setting</span>
+                <span className='ml-4'>Setting</span>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
                 <GoSignOut />
-                <span>Sign Out</span>
+                <span className='ml-4'>Sign Out</span>
             </div>
          </div>            
         </div>
