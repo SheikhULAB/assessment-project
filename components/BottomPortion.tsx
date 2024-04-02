@@ -45,7 +45,7 @@ const BottomPortion = () => {
 
           <div>
 
-            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
+            <div className='flex items-center bg-[#E9E9EF] p-3 mt-8'>
                 <FaHeart />
                 <span className='ml-4'>Your Favourite</span>
             </div>   
@@ -55,7 +55,7 @@ const BottomPortion = () => {
                 <span className='ml-4'>Notification</span>
             </div>
 
-            <div className='flex items-center bg-[#E9E9EF] p-3 mt-1.5'>
+            <div className='flex items-center text-[#F6F6F6] p-3 mt-1.5 bg-[#26235B]'>
                 <RiAdminFill />
                 <span className='ml-4'>My Profile</span>
             </div>
