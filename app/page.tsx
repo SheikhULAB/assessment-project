@@ -3,7 +3,7 @@ import RightSide from "@/components/RightSide";
 
 export default function Home() {
   return (
-   <main className="flex">
+   <main className="md:flex lg:flex">
     <LeftSide />
     <RightSide />
    </main>
