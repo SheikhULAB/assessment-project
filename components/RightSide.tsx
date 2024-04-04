@@ -8,7 +8,7 @@ const RightSide = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8 bg-[#FEFEFE] p-4 md:p-6">
+      <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8 bg-[#F6F6F6] p-4 md:p-6 md:ml-4 md:w-[100%] rounded-full">
         <div>
           <Avatar className="w-16 h-16">
             <AvatarImage src="https://github.com/shadcn.png" />

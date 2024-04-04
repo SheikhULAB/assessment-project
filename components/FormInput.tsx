@@ -9,31 +9,31 @@ const FormInput = () => {
       <div className="form-group flex flex-col gap-2 md:flex-row md:flex-wrap justify-between md:gap-4 lg:gap-6">
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="name">Name:</Label>
-          <Input type="text" id="name" placeholder="Assessment Name" />
+          <Input type="text" id="name" className="bg-[#F6F6F6] rounded-full" placeholder="Assessment Name" />
         </div>
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="nationality">Nationality:</Label>
-          <Input type="text" id="nationality" placeholder="Bangladeshi" />
+          <Input type="text" id="nationality" className="bg-[#F6F6F6] rounded-full" placeholder="Bangladeshi" />
         </div>
       </div>
       <div className="form-group flex flex-col gap-2 md:flex-row md:flex-wrap justify-between md:gap-4 lg:gap-6">
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="date">Date of Birth:</Label>
-          <Input type="date" id="date" placeholder="1/1/2001" />
+          <Input type="date" id="date" className="bg-[#F6F6F6] rounded-full" placeholder="1/1/2001" />
         </div>
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="nid">NID:</Label>
-          <Input type="number" id="nid" placeholder="842 55 636" />
+          <Input type="number" id="nid" placeholder="842 55 636" className="bg-[#F6F6F6] rounded-full" />
         </div>
       </div>
       <div className="form-group flex flex-col gap-2 md:flex-row md:flex-wrap justify-between md:gap-4 lg:gap-6">
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="blood-group">Blood Group:</Label>
-          <Input type="text" id="blood-group" placeholder="B+" />
+          <Input type="text" id="blood-group" placeholder="B+" className="bg-[#F6F6F6] rounded-full" />
         </div>
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="gender">Gender:</Label>
-          <Input type="text" id="gender" placeholder="Male" />
+          <Input type="text" id="gender" placeholder="Male" className="bg-[#F6F6F6] rounded-full" />
         </div>
       </div>
       <div className="form-group flex flex-col gap-2 md:flex-row">
@@ -43,6 +43,7 @@ const FormInput = () => {
             type="address"
             id="present-address"
             placeholder="Uttara, sector 99, H-99"
+            className="bg-[#F6F6F6] rounded-full"
           />
         </div>
       </div>
@@ -53,6 +54,7 @@ const FormInput = () => {
             type="address"
             id="permanent-address"
             placeholder="Uttara, sector 99, H-99"
+            className="bg-[#F6F6F6] rounded-full"
           />
         </div>
       </div>
