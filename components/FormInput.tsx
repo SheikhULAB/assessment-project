@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const FormInput = () => {
   return (
-    <form className="form flex flex-col gap-6">
+    <form className="form flex flex-col gap-6 md:ml-10">
       <div className="form-group flex flex-col gap-2 md:flex-row md:flex-wrap justify-between md:gap-4 lg:gap-6">
         <div className="form-item w-full md:w-1/2 lg:w-1/3">
           <Label htmlFor="name">Name:</Label>
@@ -60,7 +60,7 @@ const FormInput = () => {
         <span className="info-text text-center">
           If you change your Profile, then press Save Changes.
         </span>
-        <Button className="mt-2 md:mt-4 lg:mt-6">Save Changes</Button>
+        <Button className="md:ml-60">Save Changes</Button>
       </div>
     </form>
   );

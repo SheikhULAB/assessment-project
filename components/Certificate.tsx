@@ -7,8 +7,8 @@ const Certificate = () => {
     <div>
       <div className="lg:flex">
         <div>
-          <CertificateCard />
-          <CertificateCard />
+          <CertificateCard text = "Yellow" />
+          <CertificateCard text="White" />
         </div>
         <CertificateDesign />
       </div>

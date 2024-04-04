@@ -2,15 +2,18 @@ import React from "react";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { IoMdShare } from "react-icons/io";
 import { BsDownload } from "react-icons/bs";
+interface TextProps {
+  text: string;
+}
 
-const CertificateCard = () => {
+const CertificateCard: React.FC<TextProps>  = ({text}) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 mt-6">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="flex items-center mb-4 lg:mb-0">
           <LiaCertificateSolid className="text-yellow-500 text-4xl lg:text-5xl mr-2" />
           <span className="text-xl lg:text-2xl font-semibold">
-            Yellow Belt Certificate
+            {text} Belt Certificate
           </span>
         </div>
         <div className="flex items-center">
